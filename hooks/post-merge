@@ -3,7 +3,7 @@
 
 # TODO: generalize this with config variables
 
-pip install -r ~/cheapskate/cheapskate-backend/requirements.txt
+python -m pip install -r ~/cheapskate/cheapskate-backend/requirements.txt
 
 # reload PythonAnywhere Flask app
 touch /var/www/cheapskate_pythonanywhere_com_wsgi.py
