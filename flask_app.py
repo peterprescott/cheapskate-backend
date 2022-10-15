@@ -11,7 +11,7 @@ def hello_world():
 
 @app.route('/cicd')
 def cicd():
-    return 'Really really working!'
+    return 'Working!'
 
 
 @app.route('/git', methods=['GET','POST'])
