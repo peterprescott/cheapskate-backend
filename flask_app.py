@@ -8,6 +8,12 @@ app = Flask(__name__)
 def hello_world():
     return 'Hello from Flask!'
 
+
+@app.route('/cicd')
+def cicd():
+    return 'Working!'
+
+
 @app.route('/git', methods=['GET','POST'])
 def pull():
     repo = git.Repo(os.path.join('~','cheapskate-backend'))
