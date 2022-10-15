@@ -1,13 +1,13 @@
-PythonAnywhere
+PythonAnywhere:
   username: 
-  - cheapskate
+  - "cheapskate"
   app_path:
-  - /home/cheapskate/mysite/flask_app.py
+  - "/home/cheapskate/mysite/flask_app.py"
 
-GitHub
+GitHub:
   username:
-  - peterprescott
+  - "peterprescott"
   repository:
-  - cheapskate-backend
+  - "cheapskate-backend"
 
         
