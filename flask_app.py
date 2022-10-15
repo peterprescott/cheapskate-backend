@@ -1,6 +1,5 @@
-
-# A very simple Flask Hello World app for you to get started with...
-
+import os
+import git
 from flask import Flask
 
 app = Flask(__name__)
@@ -9,4 +8,8 @@ app = Flask(__name__)
 def hello_world():
     return 'Hello from Flask!'
 
-
+@app.route('/git', methods=['GET','POST'])
+def pull():
+    repo = git.Repo(os.path.join('~','cheapskate-backend'))
+    repo.remotes.origin.pull()
+    return 'Updated'
