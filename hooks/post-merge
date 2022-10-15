@@ -1,0 +1,9 @@
+#! /bin/sh
+# this needs to be moved into the repo .git/hooks folder
+
+# TODO: generalize this with config variables
+
+pip install -r /home/cheapskate/cheapskate-backend/requirements.txt
+
+# reload PythonAnywhere Flask app
+touch /var/www/cheapskate_pythonanywhere_com_wsgi.py
