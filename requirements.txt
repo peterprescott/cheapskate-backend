@@ -1,2 +1,6 @@
 GitPython
-flasgger
+flask-openapi3
+pydantic
+flask-sqlalchemy
+flask-praetorian
+flask-cors
