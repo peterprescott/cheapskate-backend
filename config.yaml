@@ -1,0 +1,13 @@
+PythonAnywhere
+  username: 
+  - cheapskate
+  app_path:
+  - /home/cheapskate/mysite/flask_app.py
+
+GitHub
+  username:
+  - peterprescott
+  repository:
+  - cheapskate-backend
+
+        
